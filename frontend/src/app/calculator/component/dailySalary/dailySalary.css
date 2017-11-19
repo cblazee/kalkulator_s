@@ -1,0 +1,16 @@
+.dailyLabel {
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.dailySalary {
+  font-size: 20px;
+  font-family: Georgia;
+  color: #866c65;
+  background: #caf9f9;
+}
+
+.center {
+  text-align:center;
+}

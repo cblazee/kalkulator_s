@@ -1,0 +1,19 @@
+.center {
+  text-align:center;
+}
+
+.header {
+  margin-top: -20px;
+  height: 100px;
+  background: linear-gradient(#a5b8ba, #cac5e1);
+}
+
+.title {
+  padding-top: 30px;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.content {
+  margin-top: 15px;
+}

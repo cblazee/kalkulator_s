@@ -1,0 +1,19 @@
+<div class="header center">
+  <div class="title">
+    {{title}}
+  </div>
+</div>
+<div class="center content form-inline" >
+  {{monthlySalary}}
+  <input
+    class=""
+    type="number"
+    [(ngModel)]="salary"
+    (change)="setSalary()"
+    min="0"
+    step="1"
+  >
+  <countryAutocomplete></countryAutocomplete>
+  <calculateButton></calculateButton>
+</div>
+<dailySalary></dailySalary>

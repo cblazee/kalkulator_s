@@ -1,0 +1,3 @@
+<select class="dropdown" [(ngModel)]="selectedCountry" (change)="setCode()" required>
+  <option *ngFor="let countries of countryList" [ngValue]="countries">{{countries}}</option>
+</select>
