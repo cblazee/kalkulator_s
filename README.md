@@ -7,6 +7,6 @@ Kalkulator wynagrodzeń B2B
     Oznaczenia odpowiednio:
     'PL' - nazwa wpisu
     'PLN' - skrót waluty zgodny z wartością 'code' z tabeli 'a'
-            dostępnej pod adresem: http://api.nbp.pl/api/exchangerates/tables/{table}/
+            dostępnej pod adresem: http://api.nbp.pl/api/exchangerates/tables/a/
     '0.19' - wartość procentowa podatku w danym kraju
     '1200' - wartość opłaty stałej w danym kraju
